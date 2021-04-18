@@ -289,6 +289,14 @@ h6 {
     display: flex;
     justify-content: space-evenly;
     background-color: var(--previewShadow);
+    color: white;
+    font: 1.3rem Inconsolata, monospace;
+    text-shadow: 0 0 5px #C8C8C8;
+}
+
+#skills::selection {
+    background: #0080FF;
+    text-shadow: none;
 }
 
 .social-links {
